@@ -1,0 +1,13 @@
+<mat-card *ngFor="let chapter of story">
+  <img src="{{ chapter.image }}" alt="">
+  <mat-card-content>
+    <p>
+      <span>
+        <img src="{{ chapter.dropCap }}" alt="">
+      </span>
+      <span *ngFor="let line of chapter.text">
+        {{ line }}<br>
+      </span>
+    </p>
+  </mat-card-content>
+</mat-card>

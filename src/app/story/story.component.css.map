@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,MAAM,EAAE,IAAI",
+"sources": ["story.component.scss"],
+"names": [],
+"file": "story.component.css"
+}
