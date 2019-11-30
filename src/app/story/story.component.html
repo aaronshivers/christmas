@@ -1,5 +1,5 @@
 <mat-card *ngFor="let chapter of story">
-  <img src="{{ chapter.image }}" alt="">
+  <img *ngFor="let image of chapter.images" src="{{ image }}" alt="">
   <mat-card-content>
     <p>
       <span>

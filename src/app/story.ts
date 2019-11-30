@@ -1,6 +1,6 @@
 interface Story {
   text: string[];
-  image: string;
+  images: string[];
   dropCap: string;
 }
 
@@ -12,8 +12,11 @@ export const STORY: Story[] = [
       `The stockings were hung by the chimney with care`,
       `In hopes that St. Nicholas soon would be there;`,
     ],
-    image: `../../assets/images/img005.jpg`,
-    dropCap: `../../assets/images/img006.jpg`,
+    images: [
+      `../../assets/images/img005.jpg`,
+      `../../assets/images/img006a.jpg`,
+    ],
+      dropCap: `../../assets/images/img006.jpg`,
   }, {
     text: [
       `he children were nestled all snug in their beds,`,
@@ -21,7 +24,9 @@ export const STORY: Story[] = [
       `And mamma in her kerchief, and I in my cap,`,
       `Had just settled our brains for a long winter's nap,`,
     ],
-    image: `../../assets/images/img007.jpg`,
+    images: [
+      `../../assets/images/img009.jpg`,
+    ],
     dropCap: `../../assets/images/img008.jpg`,
   }, {
     text: [
@@ -30,7 +35,9 @@ export const STORY: Story[] = [
       `Away to the window I flew like a flash,`,
       `Tore open the shutters and threw up the sash.`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img011.jpg`,
+    ],
     dropCap: `../../assets/images/img010.jpg`,
   }, {
     text: [
@@ -39,7 +46,9 @@ export const STORY: Story[] = [
       `When, what to my wondering eyes should appear,`,
       `But a miniature sleigh, and eight tiny reindeer,`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img013.jpg`,
+    ],
     dropCap: `../../assets/images/img006.jpg`,
   }, {
     text: [
@@ -48,8 +57,13 @@ export const STORY: Story[] = [
       `More rapid than eagles his coursers they came,`,
       `And he whistled, and shouted, and called them by name:`,
     ],
-    image: `../../assets/images/img005.jpg`,
-    dropCap: `../../assets/images/img010.jpg`,
+    images: [
+      `../../assets/images/img014a.jpg`,
+      `../../assets/images/img014b.jpg`,
+      `../../assets/images/img014c.jpg`,
+      `../../assets/images/img015a.jpg`,
+    ],
+    dropCap: `../../assets/images/img006.jpg`,
   }, {
     text: [
       `ow, Dasher! now, Dancer! now, Prancer and Vixen!`,
@@ -57,7 +71,9 @@ export const STORY: Story[] = [
       `To the top of the porch! to the top of the wall!`,
       `Now dash away! dash away! dash away all!"`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img016.jpg`,
+    ],
     dropCap: `../../assets/images/img015.jpg`,
   }, {
     text: [
@@ -66,7 +82,9 @@ export const STORY: Story[] = [
       `So up to the house-top the coursers they flew,`,
       `With the sleigh full of Toys, and St. Nicholas too.`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img018a.jpg`,
+    ],
     dropCap: `../../assets/images/img018.jpg`,
   }, {
     text: [
@@ -75,7 +93,9 @@ export const STORY: Story[] = [
       `As I drew in my head, and was turning around,`,
       `Down the chimney St. Nicholas came with a bound.`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img019a.jpg`,
+    ],
     dropCap: `../../assets/images/img019.jpg`,
   }, {
     text: [
@@ -84,7 +104,9 @@ export const STORY: Story[] = [
       `A bundle of Toys he had flung on his back,`,
       `And he looked like a peddler just opening his pack.`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img021.jpg`,
+    ],
     dropCap: `../../assets/images/img020.jpg`,
   }, {
     text: [
@@ -93,7 +115,9 @@ export const STORY: Story[] = [
       `His droll little mouth was drawn up like a bow,`,
       `And the beard of his chin was as white as the snow;`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img023.jpg`,
+    ],
     dropCap: `../../assets/images/img022.jpg`,
   }, {
     text: [
@@ -102,7 +126,9 @@ export const STORY: Story[] = [
       `He had a broad face and a little round belly,`,
       `That shook when he laughed, like a bowlful of jelly.`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img025.jpg`,
+    ],
     dropCap: `../../assets/images/img024.jpg`,
   }, {
     text: [
@@ -111,7 +137,9 @@ export const STORY: Story[] = [
       `A wink of his eye and a twist of his head,`,
       `Soon gave me to know I had nothing to dread;`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img027.jpg`,
+    ],
     dropCap: `../../assets/images/img026.jpg`,
   }, {
     text: [
@@ -120,7 +148,9 @@ export const STORY: Story[] = [
       `And laying his finger aside of his nose,`,
       `And giving a nod, up the chimney he rose;`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img029.jpg`,
+    ],
     dropCap: `../../assets/images/img020.jpg`,
   }, {
     text: [
@@ -129,7 +159,9 @@ export const STORY: Story[] = [
       `But I heard him exclaim, ere he drove out of sight,`,
       `"Happy Christmas to all, and to all a good-night."`,
     ],
-    image: `../../assets/images/img005.jpg`,
+    images: [
+      `../../assets/images/img031.jpg`,
+    ],
     dropCap: `../../assets/images/img022.jpg`,
   }
 ];
